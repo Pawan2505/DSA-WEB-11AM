@@ -803,29 +803,31 @@
  
 // }
 
-#include<iostream>
-using namespace std;
 
-int main(){
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
     
-    int start = 10;
+//     int start = 10;
 
-    int end = 50;
+//     int end = 50;
 
-    for(int num = start; num <= end; num++){
+//     for(int num = start; num <= end; num++){
 
-        int count = 0;
+//         int count = 0;
 
-        for(int i = 1; i <= num; i++){
-            if(num%i == 0){
-                count++;
-            }
+//         for(int i = 1; i <= num; i++){
+//             if(num%i == 0){
+//                 count++;
+//             }
 
-        }
+//         }
 
-        if(count == 2){
-            cout<<num<<" ";
-        }
-    }
+//         if(count == 2){
+//             cout<<num<<" ";
+//         }
+//     }
  
-}
+// }
