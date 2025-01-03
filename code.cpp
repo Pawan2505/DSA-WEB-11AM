@@ -317,57 +317,515 @@
 // Else if 
 
 
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+// char choice;
+
+// while(choice == 'y' || 'Y'){
+
+//     if(choice == 'n'){
+//         cout<<"Thank You!"<<endl;
+//         break;
+//     }
+        
+//     int marks;  // declaration
+
+//     cout<<"Enter Marks : ";
+
+//     cin>>marks; // user input
+
+//     if(marks >= 90){
+
+//         cout<<"Grade A+"<<endl;
+//         cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else if(marks >= 80 ){
+//         cout<<"Grade A"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else if(marks >=70 ){
+//         cout<<"Grade B+"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else if(marks >=60 ){
+//         cout<<"Grade B"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else if(marks >=50 ){
+//         cout<<"Grade C"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else{
+//         cout<<"Sorry, You are failed!"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+// }
+  
+// }
+
+
+// Relation Operator
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 10;
+//     int b = 20;
+
+//     cout<<(a == b)<<endl;  // 0
+//     cout<<(a != b)<<endl;  // 1
+//     cout<<(a >= b)<<endl;  // 0
+//     cout<<(a <= b)<<endl;  // 1 
+//     cout<<(a > b)<<endl;  // 0
+//     cout<<(a < b)<<endl; // 1
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 10;
+//     int b = 20;
+//     int c =30;
+
+//     cout<<( a < b && b > c)<<endl;  // 0
+//     cout<<((a!=b) && (c>a))<<endl;  // 1
+//     cout<<((a>=b) && (b>a))<<endl;  // 0
+//     cout<<((a<=b) && (b>c))<<endl;  // 0
+//     cout<<((a>b) && (c>a))<<endl;  // 0
+//     cout<<((a<b) && (a<=c)) <<endl; // 1
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 10;
+//     int b = 20;
+//     int c =30;
+
+//     cout<<!( a == b || b > c)<<endl;  // 1
+//     cout<<!((a!=b) || (c>a))<<endl;  // 0
+//     cout<<!((a>=b) || (b>a))<<endl;  // 0
+//     cout<<!((a<=b) || (b>c))<<endl;  // 0
+//     cout<<!((a>b) || (c>a))<<endl;  // 0
+//     cout<<!((a<b) || (a<=c)) <<endl; // 0
+// }
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 10;
+//     int b = 5;
+
+//     cout<<(a^b)<<endl;
+
+// }
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 10;
+
+//     cout<<(a>>2)<<endl;
+
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 5;
+//     int b = 10;
+
+//     cout<<(a%b)<<endl;
+
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 5;
+  
+//   //  a = a + 10;
+
+//     a += 10;
+
+//     cout<<a<<endl;
+
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 5;
+  
+//   //  a = a + 10;
+
+//     a += 10;
+
+//     cout<<a<<endl;
+
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int a = 50;
+  
+//     int b = 100;
+
+//     int c=30;
+//    (a>b && a>c)?  cout<<"a is greater" : (b>a && b>c)?  cout<<"b is greater":  cout<<"c is greater";
+
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int a = 10;
+//     int b = 5;
+
+//     cout<<"Addition : "<<(a+b)<<endl;
+//     cout<<"Multiply : "<<(a*b)<<endl;
+//     cout<<"sub :  : "<<(a-b)<<endl;
+//     cout<<"Divide : "<<(a/b)<<endl;
+//     cout<<"Remainder : "<<(a%b)<<endl;
+// }
+
+
+//  Arithmetic Operator
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int a = 10;
+//     int b = 5;
+
+//     cout<<"Addition : "<<(a+b)<<endl;
+//     cout<<"Multiply : "<<(a*b)<<endl;
+//     cout<<"sub :  : "<<(a-b)<<endl;
+//     cout<<"Divide : "<<(a/b)<<endl;
+//     cout<<"Remainder : "<<(a%b)<<endl;
+// }
+
+
+// Conditional Statement
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int fatima_age = 19;
+//     int khushi_age = 20;
+
+//     if(fatima_age>khushi_age){
+
+//         cout<<"Fatima age greater than Khushi"<<endl;
+//     }else{
+//         cout<<"Khushi age greater than fatima"<<endl;
+//     }
+// }
+
+
+// Else if 
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+// char choice;
+
+// while(choice == 'y' || 'Y'){
+
+//     if(choice == 'n'){
+//         cout<<"Thank You!"<<endl;
+//         break;
+//     }
+        
+//     int marks;  // declaration
+
+//     cout<<"Enter Marks : ";
+
+//     cin>>marks; // user input
+
+//     if(marks >= 90){
+
+//         cout<<"Grade A+"<<endl;
+//         cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else if(marks >= 80 ){
+//         cout<<"Grade A"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else if(marks >=70 ){
+//         cout<<"Grade B+"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else if(marks >=60 ){
+//         cout<<"Grade B"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else if(marks >=50 ){
+//         cout<<"Grade C"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+//     else{
+//         cout<<"Sorry, You are failed!"<<endl;
+//          cout<<"Are you want to try next (y/n) : ";
+//         cin>>choice;
+//     }
+// }
+  
+// }
+
+
+
+// // #include<iostream>
+// // using namespace std;
+
+// // int main(){
+// //     int num;
+
+// //     cout<<"Enter number : ";
+// //     cin>>num;
+
+// //     if(num%2 == 0){
+// //         cout<<"Even Number"<<endl;
+// //     }else{
+// //         cout<<"Odd Number"<<endl;
+// //     }
+// // }
+
+
+// // #include<iostream>
+// // #define PI 3.14
+// // using namespace std;
+
+// // int main(){
+// //     float r;
+
+// //     cout<<"Enter Radius : ";
+// //     cin>>r;
+
+// //     float area = PI*r*r;
+
+// //     cout<<"Area : "<<area<<endl;
+// // }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int num;
+//     cout<<"Enter Number : ";
+//     cin>>num;
+
+//     if(num>0){
+//         cout<<"Positive number"<<endl;
+//     }
+//     else if(num<0){
+//         cout<<"Negative Number"<<endl;
+//     }
+//     else{
+//         cout<<"Number is neither postive nor negative!"<<endl;
+//     }
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     for(int num = 1; num <=100; num++){
+
+//         cout<<num<<endl;
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int num;
+
+//     for(num = 1; num <=100; ){
+
+//         cout<<num<<endl;
+//         num++;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int num;
+
+//     for(num = 1; num <=100;  num++ ){
+
+//        if(num%2 == 0){
+//         cout<<num<<" ";
+//        }
+      
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int num;
+
+//     for(num = 1; num <=10;  num++ ){
+
+//    cout<<num*5<<" ";
+      
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int num;
+
+//     int sum = 0;
+
+//     for(num = 1; num <=10;  num++ ){
+
+//         sum += num;
+      
+//     }
+
+//     cout<<sum<<endl;
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int num;
+//     cout<<"Enter Number : ";
+//     cin>>num;
+
+//     int count = 0;
+
+//     for(int i= 1; i <=num;  i++ ){
+
+//        if(num%i == 0){
+//         count++;
+//        }
+//     }
+
+//     cout<<"Count : "<<count<<endl;
+
+//     if(count == 2){
+//         cout<<"Prime Number!"<<endl;
+//     }else{
+//         cout<<"Not Prime!"<<endl;
+//     }
+ 
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int num;
+//     cout<<"Enter Number : ";
+//     cin>>num;
+
+//     int count = 0;
+
+//     for(int i= 10; i <=50;  i++ ){
+
+//        if(num%i == 0){
+//         count++;
+//        }
+//     }
+
+//     cout<<"Count : "<<count<<endl;
+
+//     if(count == 2){
+//         cout<<"Prime Number!"<<endl;
+//     }else{
+//         cout<<"Not Prime!"<<endl;
+//     }
+ 
+// }
+
 #include<iostream>
 using namespace std;
 
 int main(){
+    
+    int start = 10;
 
-char choice;
+    int end = 50;
 
-while(choice == 'y' || 'Y'){
+    for(int num = start; num <= end; num++){
 
-    if(choice == 'n'){
-        cout<<"Thank You!"<<endl;
-        break;
-    }
-        
-    int marks;  // declaration
+        int count = 0;
 
-    cout<<"Enter Marks : ";
+        for(int i = 1; i <= num; i++){
+            if(num%i == 0){
+                count++;
+            }
 
-    cin>>marks; // user input
+        }
 
-    if(marks >= 90){
-
-        cout<<"Grade A+"<<endl;
-        cout<<"Are you want to try next (y/n) : ";
-        cin>>choice;
+        if(count == 2){
+            cout<<num<<" ";
+        }
     }
-    else if(marks >= 80 ){
-        cout<<"Grade A"<<endl;
-         cout<<"Are you want to try next (y/n) : ";
-        cin>>choice;
-    }
-    else if(marks >=70 ){
-        cout<<"Grade B+"<<endl;
-         cout<<"Are you want to try next (y/n) : ";
-        cin>>choice;
-    }
-    else if(marks >=60 ){
-        cout<<"Grade B"<<endl;
-         cout<<"Are you want to try next (y/n) : ";
-        cin>>choice;
-    }
-    else if(marks >=50 ){
-        cout<<"Grade C"<<endl;
-         cout<<"Are you want to try next (y/n) : ";
-        cin>>choice;
-    }
-    else{
-        cout<<"Sorry, You are failed!"<<endl;
-         cout<<"Are you want to try next (y/n) : ";
-        cin>>choice;
-    }
-}
-  
+ 
 }
